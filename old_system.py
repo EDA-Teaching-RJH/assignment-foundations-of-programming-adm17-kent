@@ -2,7 +2,7 @@ n = ["Picard", "Riker", "Data", "Worf"]
 r = ["Captain", "Commander", "Lt. Commander", "Lieutenant"]
 d = ["Command", "Command", "Operations", "Security"]
 
-active == True
+active = True
 
 def run_system_monolith():
     print("BOOTING SYSTEM...")
@@ -25,7 +25,7 @@ def run_system_monolith():
         
         opt = input("Select option: ")
         
-        if opt = "1":  
+        if opt == "1":  
             print("Current Crew List:")
             
             for i in range(10):
